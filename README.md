@@ -428,6 +428,8 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
+Last automated link check: 2026-08-27
+
 ## How verification works
 
 - **Status** is set from evidence, never from a vendor's own claim: `live` means the site loads and shows current activity; `beta` means the vendor labels it so; `shut_down` needs a shutdown notice or a news article; `domain_expired` needs a registrar or parking page; `unreachable` means it failed our check and no other signal was found; `unverified` means we have not checked it yet.

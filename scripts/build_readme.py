@@ -71,6 +71,7 @@ FAQ = [
  ("Do these tools trade with my money or my keys?", "It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small."),
 ]
 for q,a in FAQ: out.append(f"**{q}** {a}\n")
+out.append("Last automated link check: 2026-08-27\n")
 out.append("## How verification works\n")
 out.append("- **Status** is set from evidence, never from a vendor's own claim: `live` means the site loads and shows current activity; `beta` means the vendor labels it so; `shut_down` needs a shutdown notice or a news article; `domain_expired` needs a registrar or parking page; `unreachable` means it failed our check and no other signal was found; `unverified` means we have not checked it yet.")
 out.append("- **Executes** is Yes only if the tool places orders on a venue itself. Alert bots, screeners, and dashboards that link out to a venue are No.")
