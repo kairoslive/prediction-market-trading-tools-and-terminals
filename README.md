@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-08-27.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-08-27.**
+**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -32,7 +32,7 @@ A prediction market terminal is a trading interface that replaces a venue's basi
 
 | Tool | What it does | Venues | Executes | Pricing | Status |
 |---|---|---|---|---|---|
-| [Kairos](https://kairos.trade) | Cross-venue trading terminal merging Kalshi, Polymarket and Predict.fun books into one ladder with NBBO routing, sub-second streaming data, and limit, stop loss and take profit orders. REST and WebSocket API. | Kalshi, Polymarket, Predict.fun | Yes | Free, venue fees only | Live · 2026-08-27 |
+| [Kairos](https://kairos.trade) | Cross-venue trading terminal merging Kalshi, Polymarket and Predict.fun books into one ladder with NBBO routing, sub-second streaming data, and limit, stop loss and take profit orders. REST and WebSocket API. | Kalshi, Polymarket, Predict.fun | Yes | 0.01% platform fee; venue fees at cost | Live · 2026-09-08 |
 | [Aura](https://aura.money/) | Self-custody mobile and desktop app that trades Hyperliquid perps and Polymarket contracts from one wallet, with Apple Pay funding and group social trading. | Polymarket, Hyperliquid | Yes | 0% on both venues for Aura accounts; 0.01% Hyperliquid for BYO wallet | Live · 2026-08-27 |
 | [Based](https://app.based.one/predict) | Self-custodial Hyperliquid trading app for crypto and stock perps that added a Polymarket prediction markets tab with rewards points. | Hyperliquid, Polymarket | Yes | Not published | Live · 2026-08-27 |
 | [Betmoar](https://www.betmoar.fun/) | Web terminal and official Polymarket Discord bot with trade execution, position deltas, UMA dispute tracking and news tagged to markets. | Polymarket | Yes | Free; no platform fee | Live · 2026-08-27 |
@@ -428,7 +428,7 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
-Last automated link check: 2026-09-07
+Last automated link check: 2026-08-27
 
 ## How verification works
 

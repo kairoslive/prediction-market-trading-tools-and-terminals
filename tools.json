@@ -3746,13 +3746,13 @@
    "Predict.fun"
   ],
   "executes_trades": true,
-  "pricing": "Free, venue fees only",
+  "pricing": "0.01% platform fee; venue fees at cost",
   "open_source": false,
   "github": null,
   "backers": "a16z crypto led $2.5M seed (Feb 2026)",
   "status": "live",
-  "status_note": "Site and app load 2026-08-27; live data page updating; CNBC coverage 2026-08-01.",
-  "last_verified": "2026-08-27",
+  "status_note": "Site and app load 2026-08-27; live data page updating; CNBC coverage 2026-08-01. Pricing corrected 2026-09-08: Kairos charges a 0.01% platform fee; venue fees pass through at cost.",
+  "last_verified": "2026-09-08",
   "sources": [
    "https://kairos.trade/",
    "https://docs.kairos.trade",
