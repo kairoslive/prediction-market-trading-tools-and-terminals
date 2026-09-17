@@ -5532,6 +5532,29 @@
   ]
  },
  {
+  "name": "0xinsider",
+  "url": "https://0xinsider.com",
+  "category": "Analytics & Whale Tracking",
+  "description": "Polymarket analytics for sports and esports. Grades tracked wallets S to F on settled P&L, shows both sides of every game, and serves a REST API and MCP server.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "Free account + Pro $99/mo",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Homepage, /pricing and /mcp loaded 2026-09-17; the remote MCP endpoint's public tools/list returned 33 read-only tools; @0xinsider/mcp 1.2.2 published to npm 2026-09-11.",
+  "last_verified": "2026-09-17",
+  "sources": [
+   "https://0xinsider.com",
+   "https://0xinsider.com/pricing",
+   "https://0xinsider.com/mcp",
+   "https://docs.0xinsider.com"
+  ]
+ },
+ {
   "name": "polymarket-kernel",
   "url": "https://github.com/holypolyfoundation/bs-p",
   "category": "Infrastructure & DeFi",
