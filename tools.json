@@ -6093,5 +6093,27 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Overround",
+  "url": "https://www.overround.pro/",
+  "category": "Analytics & Whale Tracking",
+  "description": "Grades public Polymarket wallets on price-relative accuracy over independent resolved events, and publishes a graded ledger of every alert it has sent, losses included.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "Free + alerts from $19/mo",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site loads on 2026-09-21; the public receipts ledger and the Q3 calibration benchmark page both carry dated entries.",
+  "last_verified": "2026-09-21",
+  "sources": [
+   "https://www.overround.pro/",
+   "https://www.overround.pro/receipts",
+   "https://www.overround.pro/methodology"
+  ]
  }
 ]
