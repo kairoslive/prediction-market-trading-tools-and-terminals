@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-21.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-09-21.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -14,7 +14,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
 - [Arbitrage](#arbitrage) (7)
 - [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
-- [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
+- [Analytics & Whale Tracking](#analytics--whale-tracking) (43)
 - [Alerts](#alerts) (11)
 - [AI Agents & Research](#ai-agents--research) (49)
 - [Data & APIs](#data--apis) (58)
@@ -139,6 +139,7 @@ Analytics tools read Polymarket's on-chain data and Kalshi's public feeds to sho
 | [Mention Markets](https://mentionmarkets.com/) | Client-side transcript search over Trump speeches, White House briefings, FOMC and earnings calls for trading mention markets on Polymarket and Kalshi. | Polymarket, Kalshi | No | $199/mo | Live · 2026-08-27 |
 | [MentionMetrix](https://www.mentionmetrix.com/) | Dashboard counting how often words appear in speeches, briefings and earnings calls, with filters and trend charts for Kalshi and Polymarket mention markets. | Polymarket, Kalshi | No | Not published | Live · 2026-08-27 |
 | [MobyScreener](https://www.mobyscreener.com/predictions-feed) | Smart-money screener whose Polymarket predictions feed showed top traders' buys and sells. The web feed now redirects users to the Moby mobile app. | Polymarket | No | Free; Pro upgrade for token teams $150 | Live · 2026-08-27 |
+| [Overround](https://www.overround.pro/) | Grades public Polymarket wallets on price-relative accuracy over independent resolved events, and publishes a graded ledger of every alert it has sent, losses included. | Polymarket | No | Free + alerts from $19/mo | Live · 2026-09-21 |
 | [Parsec](https://parsec.fi/polymarket) | Onchain analytics product with a Polymarket view of flow, live trades, top holders and open interest. Parsec now bills itself as an AI researcher for onchain markets. | Polymarket | No | Not published | Unverified · 2026-08-27 |
 | [Polycool](https://polycool.live/) | Discovery app for prediction markets that surfaces top wallets, live activity and trends, with a free Telegram alert bot for smart-money trades. | Polymarket | ? | Free app; 1% per trade reported by third parties | Live · 2026-08-27 |
 | [Polyguana](https://polyguana.net/) | Prediction market tracker with live rankings, events, resolved-market archive, watchlists, alerts and a heatmap; the old .com now redirects to X. | Polymarket | ? | Free | Live · 2026-08-27 |
@@ -428,7 +429,7 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
-Last automated link check: 2026-09-21
+Last automated link check: 2026-08-27
 
 ## How verification works
 
