@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 59 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-23.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**293 tools. 237 live or in beta. 8 shut down or expired. Last full verification: 2026-09-23.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -12,12 +12,12 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 
 - [Terminals & Aggregators](#terminals--aggregators) (30)
 - [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
-- [Arbitrage](#arbitrage) (7)
-- [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
-- [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
+- [Arbitrage](#arbitrage) (9)
+- [Copy Trading & Portfolio](#copy-trading--portfolio) (7)
+- [Analytics & Whale Tracking](#analytics--whale-tracking) (43)
 - [Alerts](#alerts) (11)
 - [AI Agents & Research](#ai-agents--research) (49)
-- [Data & APIs](#data--apis) (58)
+- [Data & APIs](#data--apis) (59)
 - [Dashboards](#dashboards) (12)
 - [Infrastructure & DeFi](#infrastructure--defi) (23)
 - [Parlays & Leverage](#parlays--leverage) (5)
@@ -102,6 +102,8 @@ Arbitrage tools scan Polymarket, Kalshi and sportsbooks for the same event price
 |---|---|---|---|---|---|
 | [ArbBets](https://getarbitragebets.com/) | Scanner that flags YES/NO price gaps across Polymarket, Kalshi and Opinion (990+ matched pairs), with alerts and a REST API on higher tiers. Does not place trades. | Polymarket, Kalshi, Opinion, Novig, sportsbooks | No | Basic $59/mo, Pro $149/mo, Premium $299/mo | Live · 2026-08-27 |
 | [Eventarb](https://www.eventarb.com/) ([source](https://github.com/akhan280/event-contract-arbitrage)) | Free calculator for event-contract arbitrage: enter odds from Kalshi, Polymarket, Robinhood or Interactive Brokers and it returns fee-adjusted spreads and stake splits. | Kalshi, Polymarket, Robinhood, Interactive Brokers | No | Free | Live · 2026-08-27 |
+| [Kalshi vs Polymarket Divergence Scanner](https://instaverb.gumroad.com/l/pm-scanner) | Local Python script that matches Kalshi and Polymarket contracts asking the same question and reports the price gap and YES plus NO arb cost, with watch mode and Telegram alerts. | Kalshi, Polymarket | No | $29 one-time | Live · 2026-09-23 |
+| [pm-divergence-scanner-lite](https://github.com/myfirstcodeo/pm-divergence-scanner-lite) | Free one-file Python scanner that matches Kalshi and Polymarket markets through public keyless endpoints and prints the ten largest price gaps. | Kalshi, Polymarket | No | Free | Live · 2026-09-23 |
 | [poly-kalshi-arb](https://github.com/taetaehoho/poly-kalshi-arb) | Rust arbitrage bot for cross-platform trades between Kalshi and Polymarket. Configured through environment variables with a dry-run paper mode by default and live execution when disabled. | Polymarket, Kalshi | Yes | Free | Live · 2026-08-27 |
 | [polymarket-arbitrage (ImMike)](https://github.com/ImMike/polymarket-arbitrage) | Python bot scanning thousands of Polymarket and Kalshi markets for cross-platform and YES+NO bundle mispricings, with market making, risk limits, fee accounting, a web dashboard and simulation mode. | Polymarket, Kalshi | Yes | Free | Live · 2026-08-27 |
 | [Polymarket-Kalshi BTC Arbitrage Bot](https://github.com/CarlosIbCu/polymarket-kalshi-btc-arbitrage-bot) | FastAPI backend and Next.js dashboard that poll Polymarket CLOB and Kalshi every second for Bitcoin 1-hour price markets, flagging opposing-position combinations costing under $1. Detection only. | Polymarket, Kalshi | No | Free | Live · 2026-08-27 |
@@ -119,6 +121,7 @@ Copy trading tools mirror named Polymarket wallets, usually for a per-trade fee.
 | [PolyCopy](https://polycopy.app) | Copy trading platform for Polymarket with a cost-adjusted Copy Score per trader, one-click copies and automated trader bots on the paid plan. | Polymarket | Yes | Free + Premium $30/mo; 0.5% fee per executed trade | Live · 2026-08-27 |
 | [PolyFund](https://www.polyfund.so/) | Permissionless fund layer on Polymarket: managers launch onchain prediction funds, investors deposit USDC.e, and smart contracts handle performance fees and withdrawals. | Polymarket | Yes | Manager-set fees: up to 3% deposit, up to 30% performance | Live · 2026-08-27 |
 | [PolyVision](https://polyvisionx.com) | Scores any Polymarket wallet 1 to 10 for copy-worthiness using P&L, drawdown and 200+ factors, via Telegram bot, REST API and MCP server. | Polymarket | No | Free tier + Premium $29/mo (7-day trial) | Live · 2026-08-27 |
+| [Prediction Market Tax and P&L Kit](https://instaverb.gumroad.com/l/pm-tax-kit) | Imports Kalshi CSV exports and Polymarket wallet trade history, matches FIFO lots, and writes an Excel workbook with realized and open positions and a Form 8949 style tab. Google Sheets version included. | Kalshi, Polymarket | No | $24 one-time | Live · 2026-09-23 |
 | [Zapper](https://zapper.xyz/apps/polymarket) | Multi chain wallet and portfolio tracker whose Polymarket app page shows positions alongside DeFi holdings and NFTs. | Polymarket | No | Free | Live · 2026-08-27 |
 
 ## Analytics & Whale Tracking
@@ -134,6 +137,7 @@ Analytics tools read Polymarket's on-chain data and Kalshi's public feeds to sho
 | [FirePolymarket](https://firepolymarket.com) | Read-only Polymarket dashboard that tags wallets as Smart or Whale, ranks markets by a Fire Score and shows where informed capital sits. | Polymarket | No | Free | Live · 2026-08-27 |
 | [Hashdive](https://www.hashdive.com/) | Polymarket and Kalshi analytics site known for Smart Scores that rate trader skill from -100 to +100, plus screeners and whale tracking. | Polymarket, Kalshi | No | Not published | Unverified · 2026-08-27 |
 | [Kaito](https://kaito.ai/) | AI platform measuring social mindshare across X, TikTok, Instagram and YouTube; its data resolves Polymarket's attention markets launched in 2026. | Polymarket | No | Not published | Live · 2026-08-27 |
+| [Kalshi Weather Fair-Value Tool](https://github.com/myfirstcodeo/kalshi-weather-fair-value) | Free Python tool that prices Kalshi daily high temperature brackets from the NWS forecast and a per city forecast error model, with a published 60 day backtest against market prices. | Kalshi | No | Free | Live · 2026-09-23 |
 | [LayerHub](https://layerhub.xyz/protocols/polymarket) | Onchain analytics with a Polymarket protocol page reporting total volume, unique users and open interest, plus per wallet lookups. | Polymarket | No | Free | Live · 2026-08-27 |
 | [Markium](https://markiumpro.com/) | Prediction market data platform with market aggregation, wallet explorer, leaderboards and watchlist price alerts, centered on Polymarket. | Polymarket | ? | Not published | Unverified · 2026-08-27 |
 | [Mention Markets](https://mentionmarkets.com/) | Client-side transcript search over Trump speeches, White House briefings, FOMC and earnings calls for trading mention markets on Polymarket and Kalshi. | Polymarket, Kalshi | No | $199/mo | Live · 2026-08-27 |
@@ -262,6 +266,7 @@ The best prediction market APIs in 2026 fall into two groups: official venue API
 | [kalshi-starter-code-python](https://github.com/Kalshi/kalshi-starter-code-python) | Kalshi's example Python scripts for making authenticated REST and WebSocket requests. README states it is sample code, not an SDK. | Kalshi | ? | Free | Live · 2026-08-27 |
 | [Limitless API and SDKs](https://docs.limitless.exchange/developers/introduction) | REST and WebSocket API for Limitless on Base with EIP-712 signed orders, scoped API tokens, partner sub-accounts, official TypeScript, Python, Go and Rust clients and an MCP server for agents. | Limitless | Yes | Free; partner programmatic access by application | Live · 2026-08-27 |
 | [Limitless SDKs](https://github.com/limitless-labs-group/limitless-sdk) | Official Limitless clients in Python, TypeScript, Go and Rust handling authentication, GTC, FAK and FOK orders, WebSocket feeds, portfolio data and partner wallet flows. | Limitless | Yes | Free | Live · 2026-08-27 |
+| [Live Kalshi and Polymarket Odds for Google Sheets](https://instaverb.gumroad.com/l/pm-sheets) | Google Apps Script custom functions that return live Kalshi and Polymarket prices and event ladders in spreadsheet cells, with a 60 second cache and no API keys. | Kalshi, Polymarket | No | $19 one-time | Live · 2026-09-23 |
 | [Manifold API](https://docs.manifold.markets/api) | Manifold's play-money market API at api.manifold.markets with key auth, bet and limit order endpoints, WebSocket updates and a 500 requests per minute limit. | Manifold | Yes | Free; market creation and API comments cost mana | Live · 2026-08-27 |
 | [Manifold Markets MCP Server](https://github.com/bmorphism/manifold-mcp-server) | TypeScript MCP server mapping the Manifold Markets API: create, close and resolve markets, follow markets, react, and place bets through Zod-validated tools. | Manifold | Yes | Free | Unverified · 2026-08-27 |
 | [Marketlens](https://marketlens.trade/) ([source](https://github.com/marketlenstrade/marketlens-python)) | Tick level Polymarket order book history with a Python SDK and REST API for replaying books and backtesting strategies with simulated fills, fees and latency. | Polymarket | No | Free + Pro $29/mo + Scale $149/mo | Live · 2026-08-27 |
@@ -428,7 +433,7 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
-Last automated link check: 2026-09-21
+Last automated link check: 2026-08-27
 
 ## How verification works
 

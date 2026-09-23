@@ -6093,5 +6093,111 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Kalshi vs Polymarket Divergence Scanner",
+  "url": "https://instaverb.gumroad.com/l/pm-scanner",
+  "category": "Arbitrage",
+  "description": "Local Python script that matches Kalshi and Polymarket contracts asking the same question and reports the price gap and YES plus NO arb cost, with watch mode and Telegram alerts.",
+  "venues": [
+   "Kalshi",
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "$29 one-time",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Gumroad listing loads and is purchasable on 2026-09-23; free lite edition on GitHub updated 2026-09-23.",
+  "last_verified": "2026-09-23",
+  "sources": [
+   "https://instaverb.gumroad.com/l/pm-scanner",
+   "https://github.com/myfirstcodeo/pm-divergence-scanner-lite"
+  ]
+ },
+ {
+  "name": "pm-divergence-scanner-lite",
+  "url": "https://github.com/myfirstcodeo/pm-divergence-scanner-lite",
+  "category": "Arbitrage",
+  "description": "Free one-file Python scanner that matches Kalshi and Polymarket markets through public keyless endpoints and prints the ten largest price gaps.",
+  "venues": [
+   "Kalshi",
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "Free",
+  "open_source": true,
+  "github": "https://github.com/myfirstcodeo/pm-divergence-scanner-lite",
+  "backers": null,
+  "status": "live",
+  "status_note": "Repository public with commits dated 2026-09-23.",
+  "last_verified": "2026-09-23",
+  "sources": [
+   "https://github.com/myfirstcodeo/pm-divergence-scanner-lite"
+  ]
+ },
+ {
+  "name": "Kalshi Weather Fair-Value Tool",
+  "url": "https://github.com/myfirstcodeo/kalshi-weather-fair-value",
+  "category": "Analytics & Whale Tracking",
+  "description": "Free Python tool that prices Kalshi daily high temperature brackets from the NWS forecast and a per city forecast error model, with a published 60 day backtest against market prices.",
+  "venues": [
+   "Kalshi"
+  ],
+  "executes_trades": false,
+  "pricing": "Free",
+  "open_source": true,
+  "github": "https://github.com/myfirstcodeo/kalshi-weather-fair-value",
+  "backers": null,
+  "status": "live",
+  "status_note": "Repository public with commits dated 2026-09-23 and backtest results file.",
+  "last_verified": "2026-09-23",
+  "sources": [
+   "https://github.com/myfirstcodeo/kalshi-weather-fair-value",
+   "https://dev.to/myfirstcodeo/i-backtested-a-forecast-based-model-against-kalshis-temperature-markets-the-market-won-heres-442c"
+  ]
+ },
+ {
+  "name": "Prediction Market Tax and P&L Kit",
+  "url": "https://instaverb.gumroad.com/l/pm-tax-kit",
+  "category": "Copy Trading & Portfolio",
+  "description": "Imports Kalshi CSV exports and Polymarket wallet trade history, matches FIFO lots, and writes an Excel workbook with realized and open positions and a Form 8949 style tab. Google Sheets version included.",
+  "venues": [
+   "Kalshi",
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "$24 one-time",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Gumroad listing loads and is purchasable on 2026-09-23.",
+  "last_verified": "2026-09-23",
+  "sources": [
+   "https://instaverb.gumroad.com/l/pm-tax-kit"
+  ]
+ },
+ {
+  "name": "Live Kalshi and Polymarket Odds for Google Sheets",
+  "url": "https://instaverb.gumroad.com/l/pm-sheets",
+  "category": "Data & APIs",
+  "description": "Google Apps Script custom functions that return live Kalshi and Polymarket prices and event ladders in spreadsheet cells, with a 60 second cache and no API keys.",
+  "venues": [
+   "Kalshi",
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "$19 one-time",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Gumroad listing loads and is purchasable on 2026-09-23.",
+  "last_verified": "2026-09-23",
+  "sources": [
+   "https://instaverb.gumroad.com/l/pm-sheets"
+  ]
  }
 ]
