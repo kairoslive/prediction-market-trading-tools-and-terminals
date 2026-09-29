@@ -6093,5 +6093,28 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Kresmion",
+  "url": "https://kresmion.com/odds",
+  "category": "Analytics & Whale Tracking",
+  "description": "Market intelligence platform showing Polymarket and Kalshi odds with calibration and cross-venue divergence, next to macro, SEC filing and on-chain whale data, plus a REST API and MCP server.",
+  "venues": [
+   "Polymarket",
+   "Kalshi"
+  ],
+  "executes_trades": false,
+  "pricing": "Free during beta, paid plans after beta",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "beta",
+  "status_note": "kresmion.com/odds returned 200 on 2026-09-29 showing live Polymarket and Kalshi markets with 24h moves; kresmion.com/pricing states billing is not switched on during beta.",
+  "last_verified": "2026-09-29",
+  "sources": [
+   "https://kresmion.com/odds",
+   "https://kresmion.com/developers",
+   "https://kresmion.com/pricing"
+  ]
  }
 ]
