@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-29.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-09-29.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -14,7 +14,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
 - [Arbitrage](#arbitrage) (7)
 - [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
-- [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
+- [Analytics & Whale Tracking](#analytics--whale-tracking) (43)
 - [Alerts](#alerts) (11)
 - [AI Agents & Research](#ai-agents--research) (49)
 - [Data & APIs](#data--apis) (58)
@@ -134,6 +134,7 @@ Analytics tools read Polymarket's on-chain data and Kalshi's public feeds to sho
 | [FirePolymarket](https://firepolymarket.com) | Read-only Polymarket dashboard that tags wallets as Smart or Whale, ranks markets by a Fire Score and shows where informed capital sits. | Polymarket | No | Free | Live · 2026-08-27 |
 | [Hashdive](https://www.hashdive.com/) | Polymarket and Kalshi analytics site known for Smart Scores that rate trader skill from -100 to +100, plus screeners and whale tracking. | Polymarket, Kalshi | No | Not published | Unverified · 2026-08-27 |
 | [Kaito](https://kaito.ai/) | AI platform measuring social mindshare across X, TikTok, Instagram and YouTube; its data resolves Polymarket's attention markets launched in 2026. | Polymarket | No | Not published | Live · 2026-08-27 |
+| [Kresmion](https://kresmion.com/odds) | Market intelligence platform showing Polymarket and Kalshi odds with calibration and cross-venue divergence, next to macro, SEC filing and on-chain whale data, plus a REST API and MCP server. | Polymarket, Kalshi | No | Free during beta, paid plans after beta | Beta · 2026-09-29 |
 | [LayerHub](https://layerhub.xyz/protocols/polymarket) | Onchain analytics with a Polymarket protocol page reporting total volume, unique users and open interest, plus per wallet lookups. | Polymarket | No | Free | Live · 2026-08-27 |
 | [Markium](https://markiumpro.com/) | Prediction market data platform with market aggregation, wallet explorer, leaderboards and watchlist price alerts, centered on Polymarket. | Polymarket | ? | Not published | Unverified · 2026-08-27 |
 | [Mention Markets](https://mentionmarkets.com/) | Client-side transcript search over Trump speeches, White House briefings, FOMC and earnings calls for trading mention markets on Polymarket and Kalshi. | Polymarket, Kalshi | No | $199/mo | Live · 2026-08-27 |
@@ -428,7 +429,7 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
-Last automated link check: 2026-09-28
+Last automated link check: 2026-08-27
 
 ## How verification works
 
