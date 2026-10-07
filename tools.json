@@ -6093,5 +6093,26 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Bot for Kalshi",
+  "url": "https://www.botforkalshi.com/",
+  "category": "Trading Bots & Chat Trading",
+  "description": "Hosted Kalshi strategy builder with plain English rule drafting, inspectable workflows, Paper mode, and optional live execution through the user's Kalshi account.",
+  "venues": [
+   "Kalshi"
+  ],
+  "executes_trades": true,
+  "pricing": "Complete $99/mo; no free trial; Kalshi account and API key required, including Paper",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Product and pricing page returned HTTP 200 on 2026-10-06. Public changelog includes a customer-facing update dated 2026-07-21.",
+  "last_verified": "2026-10-06",
+  "sources": [
+   "https://www.botforkalshi.com/product",
+   "https://www.botforkalshi.com/changelog"
+  ]
  }
 ]

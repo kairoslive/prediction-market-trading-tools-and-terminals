@@ -4,14 +4,14 @@ Which tool fits depends on how many venues you trade. The terminals most traders
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
 ## Contents
 
 - [Terminals & Aggregators](#terminals--aggregators) (30)
-- [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
+- [Trading Bots & Chat Trading](#trading-bots--chat-trading) (26)
 - [Arbitrage](#arbitrage) (7)
 - [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
 - [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
@@ -69,6 +69,7 @@ Trading bots place orders on Polymarket or Kalshi from Telegram, Discord or a sc
 | Tool | What it does | Venues | Executes | Pricing | Status |
 |---|---|---|---|---|---|
 | [Bankr](https://bankr.bot/) ([source](https://github.com/BankrBot/skills)) | Chat-driven crypto agent on X and a private terminal that swaps into USDC and places Polymarket bets from a message. Agent skills are published on GitHub. | Polymarket | Yes | Bankr Club $20/mo in BNKR, or Max Mode with LLM credits | Live · 2026-08-27 |
+| [Bot for Kalshi](https://www.botforkalshi.com/) | Hosted Kalshi strategy builder with plain English rule drafting, inspectable workflows, Paper mode, and optional live execution through the user's Kalshi account. | Kalshi | Yes | Complete $99/mo; no free trial; Kalshi account and API key required, including Paper | Live · 2026-10-06 |
 | [direkturcrypto/polymarket-terminal](https://github.com/direkturcrypto/polymarket-terminal) | Node.js bot suite for Polymarket with three strategies: maker-rebate market making on 15-minute crypto markets, wallet copy trading, and staggered order book sniping. Includes simulation modes. | Polymarket | Yes | Free | Live · 2026-08-27 |
 | [Homerun](https://github.com/braedonsaunders/homerun) | Self-hosted platform for writing Python strategies and data sources, backtesting with order book replay, then paper or live trading on Polymarket and Kalshi. Ships 25+ strategies, copy trading, LLM scoring. | Polymarket, Kalshi | Yes | Free | Live · 2026-08-27 |
 | [KalshiMarketMaker](https://github.com/rodlaf/KalshiMarketMaker) | Python market making bot for Kalshi. Selects binary markets by volume and spread, runs an Avellaneda-Stoikov worker per market with inventory limits, portfolio caps and order cleanup on deselection. | Kalshi | Yes | Free | Live · 2026-08-27 |
