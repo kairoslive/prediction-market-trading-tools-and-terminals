@@ -5083,6 +5083,28 @@
   ]
  },
  {
+  "name": "Whalidate",
+  "url": "https://whalidate.com/",
+  "category": "Copy Trading & Portfolio",
+  "description": "Scores Polymarket wallets on settled trades, worst drawdown and share of profit from one trade, then copies new trades that pass your rules. Strategies run on paper first.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": true,
+  "pricing": "Free (paper only); Starter $49/mo, Pro $149/mo, Elite $349/mo; no per-trade fee",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site and pricing page loaded 2026-10-14; plan prices match the public plans API; listed on DefiLlama as a Polymarket builder.",
+  "last_verified": "2026-10-14",
+  "sources": [
+   "https://whalidate.com/",
+   "https://whalidate.com/pricing/",
+   "https://defillama.com/protocol/whalidate"
+  ]
+ },
+ {
   "name": "KalshiMarketMaker",
   "url": "https://github.com/rodlaf/KalshiMarketMaker",
   "category": "Trading Bots & Chat Trading",
