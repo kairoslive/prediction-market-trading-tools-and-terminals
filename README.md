@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-10-14.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-10-14.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -13,7 +13,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Terminals & Aggregators](#terminals--aggregators) (30)
 - [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
 - [Arbitrage](#arbitrage) (7)
-- [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
+- [Copy Trading & Portfolio](#copy-trading--portfolio) (7)
 - [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
 - [Alerts](#alerts) (11)
 - [AI Agents & Research](#ai-agents--research) (49)
@@ -119,6 +119,7 @@ Copy trading tools mirror named Polymarket wallets, usually for a per-trade fee.
 | [PolyCopy](https://polycopy.app) | Copy trading platform for Polymarket with a cost-adjusted Copy Score per trader, one-click copies and automated trader bots on the paid plan. | Polymarket | Yes | Free + Premium $30/mo; 0.5% fee per executed trade | Live · 2026-08-27 |
 | [PolyFund](https://www.polyfund.so/) | Permissionless fund layer on Polymarket: managers launch onchain prediction funds, investors deposit USDC.e, and smart contracts handle performance fees and withdrawals. | Polymarket | Yes | Manager-set fees: up to 3% deposit, up to 30% performance | Live · 2026-08-27 |
 | [PolyVision](https://polyvisionx.com) | Scores any Polymarket wallet 1 to 10 for copy-worthiness using P&L, drawdown and 200+ factors, via Telegram bot, REST API and MCP server. | Polymarket | No | Free tier + Premium $29/mo (7-day trial) | Live · 2026-08-27 |
+| [Whalidate](https://whalidate.com/) | Scores Polymarket wallets on settled trades, worst drawdown and share of profit from one trade, then copies new trades that pass your rules. Strategies run on paper first. | Polymarket | Yes | Free (paper only); Starter $49/mo, Pro $149/mo, Elite $349/mo; no per-trade fee | Live · 2026-10-14 |
 | [Zapper](https://zapper.xyz/apps/polymarket) | Multi chain wallet and portfolio tracker whose Polymarket app page shows positions alongside DeFi holdings and NFTs. | Polymarket | No | Free | Live · 2026-08-27 |
 
 ## Analytics & Whale Tracking
@@ -428,7 +429,7 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
-Last automated link check: 2026-10-12
+Last automated link check: 2026-08-27
 
 ## How verification works
 
