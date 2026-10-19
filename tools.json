@@ -6093,5 +6093,26 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "PolyTracer",
+  "url": "https://polytracer.app/",
+  "category": "Analytics & Whale Tracking",
+  "description": "Replays Polymarket wallets fill by fill from raw Polygon chain data, recomputing win rate, ROI and P&L. Leaderboards, a 0 to 100 copy score, and copy trading from Telegram.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": true,
+  "pricing": "Free to browse",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site loaded on 2026-10-03: wallet pages, leaderboard and category win rates render without an account.",
+  "last_verified": "2026-10-03",
+  "sources": [
+   "https://polytracer.app/",
+   "https://polytracer.app/leaderboard"
+  ]
  }
 ]
