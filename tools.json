@@ -6093,5 +6093,26 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "SpectralEdge",
+  "url": "https://spectralbot.cotes.ai/",
+  "category": "Alerts",
+  "description": "Signal service for Kalshi BTC 15 minute markets. Calls YES or NO when model confidence and edge clear a threshold, with a REST and SSE API for bots and agents.",
+  "venues": [
+   "Kalshi"
+  ],
+  "executes_trades": false,
+  "pricing": "Free trial, then paid subscription",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site returned 200 on 2026-10-21 with replays of the ten most recent settled markets; API docs at /docs/ returned 200 the same day.",
+  "last_verified": "2026-10-21",
+  "sources": [
+   "https://spectralbot.cotes.ai/",
+   "https://spectralbot.cotes.ai/docs/"
+  ]
  }
 ]
