@@ -14,11 +14,13 @@ for t in tools: by[t["category"]].append(t)
 live = [t for t in tools if t["status"] in ("live","beta")]
 dead = [t for t in tools if t["status"] in ("shut_down","domain_expired")]
 today = max(t["last_verified"] for t in tools)
+previous_readme = (ROOT / "README.md").read_text() if (ROOT / "README.md").exists() else ""
+last_link_check = re.search(r"^Last automated link check: (.+)$", previous_readme, re.MULTILINE)
 out = []
 out.append("# Best Tools to Trade Prediction Markets (2026): Verified Directory\n")
-out.append(f"Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the {len(by.get('Data & APIs',[]))} APIs and SDKs are each in their own section. Everything was re-checked on {today}.\n")
+out.append(f"Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the {len(by.get('Data & APIs',[]))} APIs and SDKs are each in their own section. Entries are checked individually. The latest check was on {today}.\n")
 out.append(f"A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.\n")
-out.append(f"**{len(tools)} tools. {len(live)} live or in beta. {len(dead)} shut down or expired. Last full verification: {today}.**\n")
+out.append(f"**{len(tools)} tools. {len(live)} live or in beta. {len(dead)} shut down or expired. Latest entry verification: {today}.**\n")
 out.append("The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.\n")
 out.append("## Contents\n")
 for c in ORDER:
@@ -71,7 +73,8 @@ FAQ = [
  ("Do these tools trade with my money or my keys?", "It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small."),
 ]
 for q,a in FAQ: out.append(f"**{q}** {a}\n")
-out.append("Last automated link check: 2026-08-27\n")
+if last_link_check:
+    out.append(last_link_check.group(0) + "\n")
 out.append("## How verification works\n")
 out.append("- **Status** is set from evidence, never from a vendor's own claim: `live` means the site loads and shows current activity; `beta` means the vendor labels it so; `shut_down` needs a shutdown notice or a news article; `domain_expired` needs a registrar or parking page; `unreachable` means it failed our check and no other signal was found; `unverified` means we have not checked it yet.")
 out.append("- **Executes** is Yes only if the tool places orders on a venue itself. Alert bots, screeners, and dashboards that link out to a venue are No.")
