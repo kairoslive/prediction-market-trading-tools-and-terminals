@@ -4,13 +4,13 @@ Which tool fits depends on how many venues you trade. The terminals most traders
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
 ## Contents
 
-- [Terminals & Aggregators](#terminals--aggregators) (30)
+- [Terminals & Aggregators](#terminals--aggregators) (31)
 - [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
 - [Arbitrage](#arbitrage) (7)
 - [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
@@ -44,6 +44,7 @@ A prediction market terminal is a trading interface that replaces a venue's basi
 | [future fun](https://www.future.fun/) | Prediction market terminal with AI forecast signals from Bittensor and Allora, wallet and trader intelligence, and in-app trade execution, tied to the $AION token. | Polymarket, Kalshi | Yes | Not published | Live · 2026-08-27 |
 | [humanplane/terminal](https://github.com/humanplane/terminal) | Self-hosted Polymarket trading client with live order books, trader leaderboards and self-custodial market and limit orders signed in MetaMask. Rust proxy plus SolidJS front end. | Polymarket | Yes | Free | Live · 2026-08-27 |
 | [Kalshi Pro](https://pro.kalshi.com) | Kalshi's desktop terminal for prediction markets and crypto perpetuals: multi-market canvas layouts, a screener across about 2,000 markets, TradingView charts, live trade feed and resting orders. | Kalshi | Yes | Free | Beta · 2026-08-27 |
+| [Macro Markets](https://macro.markets/en) | Prediction market platform for browsing probabilities and trading event outcomes in politics, economics and sports. Browsing is free; trading requires a deposit and involves risk. | Macro Markets | Yes | Free browsing; deposit required to trade (vendor supplied). Trading fees not independently verified. | Unverified · 2026-10-27 |
 | [Matchr](https://www.matchr.xyz/) | Cross-platform market aggregator that matches equivalent events across venues, shows the best price, and routes execution gaslessly through Safe smart wallets, currently via Polymarket. | Polymarket, Kalshi, Manifold, Metaculus, PredictIt | Yes | Not published | Live · 2026-08-27 |
 | [Neuberg](https://github.com/KoNananachan/Neuberg) | Source-available financial terminal with 516 drag-and-drop panels covering equities, crypto and macro data, with trading via Alpaca, Hyperliquid perpetuals and Polymarket prediction markets. | Polymarket, Hyperliquid, Alpaca | Yes | Free for non-commercial use; commercial license from Bauhinia AI | Live · 2026-08-27 |
 | [Novig](https://novig.us) | Peer-to-peer sports prediction market app trading event contracts on its own CFTC-designated Ludlow Exchange, cleared by Bitnomial, with no commission and user-set odds. Ages 21 and up. | Ludlow Exchange | Yes | No fees (stated on site) | Live · 2026-08-27 |
