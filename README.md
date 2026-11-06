@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-10-21.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-10-21.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -15,7 +15,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Arbitrage](#arbitrage) (7)
 - [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
 - [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
-- [Alerts](#alerts) (11)
+- [Alerts](#alerts) (12)
 - [AI Agents & Research](#ai-agents--research) (49)
 - [Data & APIs](#data--apis) (58)
 - [Dashboards](#dashboards) (12)
@@ -184,6 +184,7 @@ Alert tools push price moves, new markets and whale trades to Telegram, Discord,
 | [PolySpy](https://t.me/PolySpy_bot) | Telegram bot that pings you when new Polymarket markets are listed, filtered by category and subcategory with ignore tags to cut noise. | Polymarket | No | Free | Live · 2026-08-27 |
 | [Polytrackerbot](https://x.com/polytrackerbot) | X bot that posted large buy-side Polymarket trades from top-profit wallets, excluding sports. The account is currently suspended. | Polymarket | No | Free | Unreachable · 2026-08-27 |
 | [Polytrage](https://t.me/polytrage) | Telegram channel that posts Polymarket crypto-market arbitrage signals with YES/NO bid-ask, spread, volume and trade links. Posting appears to have stopped in December 2025. | Polymarket | No | Free | Unverified · 2026-08-27 |
+| [SpectralEdge](https://spectralbot.cotes.ai/) | Signal service for Kalshi BTC 15 minute markets. Calls YES or NO when model confidence and edge clear a threshold, with a REST and SSE API for bots and agents. | Kalshi | No | Free trial, then paid subscription | Live · 2026-10-21 |
 | [TREMOR](https://github.com/sculptdotfun/tremor) | Open source monitor that scores sudden price moves across roughly 500 Polymarket markets on a 0 to 10 intensity scale and streams them live. Kalshi support planned. | Polymarket | No | Free (MIT) | Beta · 2026-08-27 |
 | [YN Signals](https://t.me/YNSignals) | Telegram channel by AntCaveClub relaying new market listings, odds anomalies, big trades and insider wallet moves across Polymarket, Kalshi and Limitless. | Polymarket, Kalshi, Limitless | No | Free | Live · 2026-08-27 |
 
@@ -428,7 +429,7 @@ Kept for the record so nobody routes money through a dead tool. Each row states 
 
 **Do these tools trade with my money or my keys?** It varies. Venue terminals use your venue account. Some Polymarket bots are self-custodial and sign from your wallet; others hold funds. This directory does not rate custody; read each tool's docs and start small.
 
-Last automated link check: 2026-11-02
+Last automated link check: 2026-08-27
 
 ## How verification works
 
