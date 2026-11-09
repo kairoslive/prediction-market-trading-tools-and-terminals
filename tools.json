@@ -6093,5 +6093,28 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "StrikePing",
+  "url": "https://strikeping.com/",
+  "category": "Alerts",
+  "description": "Selective BTC, ETH and SOL spot alerts for fifteen minute windows, with Telegram delivery, timed updates and a public record beside a baseline.",
+  "venues": [
+   "Venue independent"
+  ],
+  "executes_trades": false,
+  "pricing": "$29/mo",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "The site loaded on 2026-10-17 with dated live forecasts and a public results record; checkout is available through Whop. Uses an independent spot reference rather than venue matched targets or settlement.",
+  "last_verified": "2026-10-17",
+  "sources": [
+   "https://strikeping.com/",
+   "https://strikeping.com/record",
+   "https://strikeping.com/how-it-works",
+   "https://whop.com/checkout/plan_rzPUyEgclzyXl/"
+  ]
  }
 ]
