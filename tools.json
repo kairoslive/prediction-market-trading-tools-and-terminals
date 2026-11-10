@@ -6093,5 +6093,27 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
- }
+ },
+  {
+    "name": "Glypse",
+    "url": "https://glypse.ai/",
+    "category": "Analytics & Whale Tracking",
+    "description": "Free research and analytics for prediction markets, combining a market screener, event briefings, social sentiment analysis, and a custom-pair arbitrage scanner.",
+    "venues": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "executes_trades": false,
+    "pricing": "Free",
+    "open_source": false,
+    "github": null,
+    "backers": null,
+    "status": "live",
+    "status_note": "Homepage loaded successfully in Chrome and the public market screener displayed Polymarket and Kalshi events. The site describes free access without an account; the help center documents the research and analytics tools.",
+    "last_verified": "2026-10-14",
+    "sources": [
+      "https://glypse.ai/",
+      "https://glypse.ai/help"
+    ]
+  }
 ]
