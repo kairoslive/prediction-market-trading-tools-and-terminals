@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Entries are checked individually. The latest check was on 2026-10-25.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Latest entry verification: 2026-10-25.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -22,7 +22,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Infrastructure & DeFi](#infrastructure--defi) (23)
 - [Parlays & Leverage](#parlays--leverage) (5)
 - [News & Education](#news--education) (8)
-- [Directories & Other](#directories--other) (12)
+- [Directories & Other](#directories--other) (13)
 - [Shut down or expired](#shut-down-or-expired) (8)
 - [How verification works](#how-verification-works)
 
@@ -396,6 +396,7 @@ Other directories, extensions and utilities around prediction markets, including
 | [Polyteller](https://polyteller.com/) | Free Chrome extension for Polymarket adding local timezone countdowns, pre close notifications, a privacy mode for balances and an optional trade confirmation popup. | Polymarket | No | Free | Live · 2026-08-27 |
 | [Prediction Index](https://predictionindex.xyz/) | Directory and ranking of 315 prediction market projects across 37 chains, tracking $117.9B in volume, plus a Chaos Index that compares market and AI forecasts. |  | No | Free (research subscription offered) | Live · 2026-08-27 |
 | [Prediction Markets Directory](https://frontseat.co/prediction-markets) | Directory of roughly 100 prediction market projects curated by Figo (@figo_saleh), hosted on Frontseat's hackathon project browser. |  | No | Free | Unreachable · 2026-08-27 |
+| [PredictionMarket.tools](https://www.predictionmarket.tools/) | Free directory of Polymarket and Kalshi tools with platform comparisons, calculators, API guides, and a runnable paper trading bot tutorial. | Polymarket, Kalshi | No | Free | Live · 2026-10-25 |
 
 ## Shut down or expired
 

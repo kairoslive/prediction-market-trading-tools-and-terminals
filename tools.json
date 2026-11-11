@@ -6093,5 +6093,30 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "PredictionMarket.tools",
+  "url": "https://www.predictionmarket.tools/",
+  "category": "Directories & Other",
+  "description": "Free directory of Polymarket and Kalshi tools with platform comparisons, calculators, API guides, and a runnable paper trading bot tutorial.",
+  "venues": [
+   "Polymarket",
+   "Kalshi"
+  ],
+  "executes_trades": false,
+  "pricing": "Free",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Homepage, directory, calculators and paper bot tutorial loaded without signup on 2026-10-25. Homepage showed the weekly picks for October 19, 2026.",
+  "last_verified": "2026-10-25",
+  "sources": [
+   "https://www.predictionmarket.tools/",
+   "https://www.predictionmarket.tools/tools",
+   "https://www.predictionmarket.tools/utilities",
+   "https://www.predictionmarket.tools/how-to-build-prediction-market-bot",
+   "https://www.predictionmarket.tools/about"
+  ]
  }
 ]
