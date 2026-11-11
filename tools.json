@@ -6093,5 +6093,27 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Anveric",
+  "url": "https://anveric.com/",
+  "category": "Terminals & Aggregators",
+  "description": "Windows workspace for held Kalshi positions, combo-leg alerts, whole-combo RFQ monitoring and optional Sentinel sell plans, with paired iOS and Android companions.",
+  "venues": [
+   "Kalshi"
+  ],
+  "executes_trades": true,
+  "pricing": "Free shared beta November 9–December 9, 2026. Access ends December 9 at 00:00 CST for everyone; no paid subscription in the current beta flow.",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "beta",
+  "status_note": "Public homepage loaded November 10, 2026 and labels the November 9–December 9 shared beta open. Windows and Android downloads are available to eligible accounts; iPhone access uses a TestFlight invitation and macOS is coming soon. Individual legs are monitored; eligible whole-combo RFQ checks target 60 seconds while monitoring runs. Sentinel submits sell orders only under reviewed and armed plans; monitoring quotes do not execute sales, and quotes/fills are not guaranteed. Windows must remain awake and online. This vendor submission is not an independent activation or live-execution test. Terminals & Aggregators reflects optional selling beyond read-only alerts.",
+  "last_verified": "2026-11-10",
+  "sources": [
+   "https://anveric.com/",
+   "https://anveric.com/about",
+   "https://anveric.com/kalshi-stop-loss"
+  ]
  }
 ]
