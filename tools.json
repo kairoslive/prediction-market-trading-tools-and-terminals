@@ -6093,5 +6093,21 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
- }
+ },
+     {
+      "name": "MKTGAP",
+      "url": "https://mktgap.com",
+      "category": "Terminals & Aggregators",
+      "description": "Compares the same event across Polymarket, Kalshi, PredictIt, Limitless and Gemini Predictions and measures the gap after each platform's fees. Fee calculator, guides, methodology.",
+      "venues": ["Polymarket", "Kalshi", "PredictIt", "Limitless", "Gemini Predictions"],
+      "executes_trades": false,
+      "pricing": "Free; paid real-time plan planned",
+      "open_source": false,
+      "github": null,
+      "backers": null,
+      "status": "live",
+      "status_note": "Site loads, fee calculator and guides work, no account needed. Vendor submission.",
+      "last_verified": "2026-10-22",
+      "sources": ["https://mktgap.com", "https://mktgap.com/methodology", "https://mktgap.com/pricing"]
+    }
 ]
