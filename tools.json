@@ -6093,5 +6093,28 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Tips (x.tips)",
+  "url": "https://x.tips/",
+  "category": "Analytics & Whale Tracking",
+  "description": "Sports trader leaderboard built from public Polymarket, Kalshi and SX Bet records. Positions are settled against final results, and each trader profile shows the full match history.",
+  "venues": [
+   "Polymarket",
+   "Kalshi",
+   "SX Bet"
+  ],
+  "executes_trades": false,
+  "pricing": "Free to browse, optional paid membership",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site loads; the methodology page shows a sample size dated 2026-11-04 19:34 UTC.",
+  "last_verified": "2026-11-04",
+  "sources": [
+   "https://x.tips/",
+   "https://x.tips/methodology"
+  ]
  }
 ]
