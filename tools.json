@@ -1911,6 +1911,30 @@
   ]
  },
  {
+  "name": "PolyTrackers",
+  "url": "https://polytrackers.com/",
+  "category": "Copy Trading & Portfolio",
+  "description": "Polymarket copy trading for people and AI agents. Free plan: $10,000 paper wallet and real trades through MCP. Trader grades, plus a copy backtest that counts fees and slippage.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": true,
+  "pricing": "Free; Pro $19/mo; Elite $49/mo; 0.25% fee on real trades",
+  "open_source": false,
+  "github": "https://github.com/polytrackers/polymarket-copy-trading-skill",
+  "backers": null,
+  "status": "live",
+  "status_note": "Homepage, pricing and trader grade pages loaded 2026-11-11; the public recap feed (polytrackers.com/feed.xml) lists a daily recap dated 2026-11-11.",
+  "last_verified": "2026-11-11",
+  "sources": [
+   "https://polytrackers.com/",
+   "https://polytrackers.com/pricing",
+   "https://polytrackers.com/copy-trading-disclosure",
+   "https://polytrackers.com/polymarket-trader-grade",
+   "https://polytrackers.com/polymarket-mcp-server"
+  ]
+ },
+ {
   "name": "YN Signals",
   "url": "https://t.me/YNSignals",
   "category": "Alerts",
