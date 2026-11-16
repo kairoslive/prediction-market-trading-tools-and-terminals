@@ -6093,5 +6093,25 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Macro Markets",
+  "url": "https://macro.markets/en",
+  "category": "Terminals & Aggregators",
+  "description": "Prediction market platform for browsing probabilities and trading event outcomes in politics, economics and sports. Browsing is free; trading requires a deposit and involves risk.",
+  "venues": [
+   "Macro Markets"
+  ],
+  "executes_trades": true,
+  "pricing": "Free browsing; deposit required to trade (vendor supplied). Trading fees not independently verified.",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "unverified",
+  "status_note": "The connected Chrome browser loaded the public English homepage on 2026-10-27, with Login/Register and market listings visible. Automated HTTP access returned 403. A qualifying dated activity post and end-to-end trading were not independently verified; do not infer a live trading verification.",
+  "last_verified": "2026-10-27",
+  "sources": [
+   "https://macro.markets/en"
+  ]
  }
 ]
