@@ -1,5 +1,38 @@
 [
  {
+  "name": "Predxy",
+  "url": "https://predxy.com/",
+  "category": "Terminals & Aggregators",
+  "description": "Consumer-friendly index of the world's predictions that turns 15 fragmented prediction venues into one readable probability per question, designed for everyday people.",
+  "venues": [
+   "Polymarket",
+   "Kalshi",
+   "Limitless",
+   "Outcome",
+   "Opinion",
+   "Hyperliquid",
+   "Skew",
+   "trade.xyz",
+   "Novig",
+   "Myriad",
+   "Predict.fun",
+   "SX Bet",
+   "Pascal",
+   "Gemini"
+  ],
+  "executes_trades": null,
+  "pricing": "Not published",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "unreachable",
+  "status_note": "Vendor submission. Site loaded 2026-10-19 with 15 venues last synced within two minutes and 352,197 open questions; terms state it does not execute trades.",
+  "last_verified": "2026-10-19",
+  "sources": [
+   "https://predxy.com",
+  ]
+ },
+ {
   "name": "Verso",
   "url": "https://www.verso.trading/",
   "category": "Terminals & Aggregators",
