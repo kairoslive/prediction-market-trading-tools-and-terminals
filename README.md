@@ -4,7 +4,7 @@ Which tool fits depends on how many venues you trade. The terminals most traders
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -14,7 +14,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Trading Bots & Chat Trading](#trading-bots--chat-trading) (25)
 - [Arbitrage](#arbitrage) (7)
 - [Copy Trading & Portfolio](#copy-trading--portfolio) (6)
-- [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
+- [Analytics & Whale Tracking](#analytics--whale-tracking) (43)
 - [Alerts](#alerts) (11)
 - [AI Agents & Research](#ai-agents--research) (49)
 - [Data & APIs](#data--apis) (58)
@@ -167,6 +167,7 @@ Analytics tools read Polymarket's on-chain data and Kalshi's public feeds to sho
 | [Prediedge](https://prediedge.com) | Whale feed and market signal dashboard for Polymarket and Kalshi that flags trades over $1,000 and suspected insider activity. Published by Hubseer. | Polymarket, Kalshi | No | Not published | Live · 2026-08-27 |
 | [PredScan](https://predscan.io) | Polymarket wallet performance tracker with daily P&L, win rate, ROI and leaderboards. The site currently returns an empty page. | Polymarket | No | Not published | Unreachable · 2026-08-27 |
 | [Pricediction](https://web3-pricediction.vercel.app/) | Landing page for an AI trading assistant aimed at Kalshi and Polymarket; currently only a 'get notified' signup with 2025 copyright. | Polymarket, Kalshi | ? | Not published | Unverified · 2026-08-27 |
+| [Tips (x.tips)](https://x.tips/) | Sports trader leaderboard built from public Polymarket, Kalshi and SX Bet records. Positions are settled against final results, and each trader profile shows the full match history. | Polymarket, Kalshi, SX Bet | No | Free to browse, optional paid membership | Live · 2026-11-04 |
 | [Wethr](https://wethr.net/) | Weather-market analytics with live METAR observations, model runs and range tools for 70+ stations traded on Polymarket, Kalshi, Robinhood and IBKR. | Polymarket, Kalshi, Robinhood, IBKR ForecastEx | No | Free + Pro (price not published) | Live · 2026-08-27 |
 | [Wincy Polymarket Bot](https://t.me/wincy_polymarket_bot) | Telegram bot: paste a Polymarket market link and it returns the five largest position holders with sizes, sides and profile links. | Polymarket | No | Not published | Live · 2026-08-27 |
 
