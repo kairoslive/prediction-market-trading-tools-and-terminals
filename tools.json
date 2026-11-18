@@ -6093,5 +6093,27 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "Bot for Kalshi",
+  "url": "https://www.botforkalshi.com/",
+  "category": "Trading Bots & Chat Trading",
+  "description": "No-code bot builder for Kalshi. Describe a rule in plain English, test it in Paper on live prices, then run up to 10 live bots with account risk caps.",
+  "venues": [
+   "Kalshi"
+  ],
+  "executes_trades": true,
+  "pricing": "Complete $99/mo",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site, pricing and status pages load; blog guides dated October 2026.",
+  "last_verified": "2026-10-25",
+  "sources": [
+   "https://www.botforkalshi.com/",
+   "https://www.botforkalshi.com/#pricing",
+   "https://www.botforkalshi.com/status"
+  ]
  }
 ]
