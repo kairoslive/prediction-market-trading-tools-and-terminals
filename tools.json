@@ -1911,6 +1911,31 @@
   ]
  },
  {
+  "name": "PolyTrackers",
+  "url": "https://polytrackers.com/",
+  "category": "Copy Trading & Portfolio",
+  "description": "Polymarket copy trading with a $10,000 paper wallet. Agents compare current sportsbook consensus with Polymarket prices for their trade size after fees on supported sports markets.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": true,
+  "pricing": "Free; Pro $19/mo; Elite $49/mo; 0.25% fee on real trades",
+  "open_source": false,
+  "github": "https://github.com/polytrackers/polymarket-copy-trading-skill",
+  "backers": null,
+  "status": "live",
+  "status_note": "Homepage, pricing and trader grade pages loaded 2026-11-11; the public recap feed (polytrackers.com/feed.xml) lists a daily recap dated 2026-11-11.",
+  "last_verified": "2026-11-11",
+  "sources": [
+   "https://polytrackers.com/",
+   "https://polytrackers.com/pricing",
+   "https://polytrackers.com/copy-trading-disclosure",
+   "https://polytrackers.com/polymarket-trader-grade",
+   "https://polytrackers.com/polymarket-mcp-server",
+   "https://polytrackers.com/docs/api#sportsbook-gap-scanner"
+  ]
+ },
+ {
   "name": "YN Signals",
   "url": "https://t.me/YNSignals",
   "category": "Alerts",
