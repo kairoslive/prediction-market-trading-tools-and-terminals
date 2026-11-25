@@ -6093,5 +6093,28 @@
   "sources": [
    "https://github.com/bmorphism/manifold-mcp-server"
   ]
+ },
+ {
+  "name": "TAPE Markets",
+  "url": "https://tapemarkets.io",
+  "category": "Data & APIs",
+  "description": "Polymarket data and research platform. Every trade decoded from the chain since November 2022, wallets labeled by how they trade, free daily indexes and a leaderboard, by terminal or API.",
+  "venues": [
+   "Polymarket"
+  ],
+  "executes_trades": false,
+  "pricing": "Free public tools, terminal and API by demo",
+  "open_source": false,
+  "github": null,
+  "backers": null,
+  "status": "live",
+  "status_note": "Site loads, Smart Money Index page shows the close of November 25, 2026.",
+  "last_verified": "2026-11-25",
+  "sources": [
+   "https://tapemarkets.io",
+   "https://tapemarkets.io/platform",
+   "https://tapemarkets.io/resources/polymarket-api",
+   "https://tapemarkets.io/indexes/smart-money-index"
+  ]
  }
 ]

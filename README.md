@@ -1,10 +1,10 @@
 # Best Tools to Trade Prediction Markets (2026): Verified Directory
 
-Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 58 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
+Which tool fits depends on how many venues you trade. The terminals most traders start with are Kalshi Pro, Polymarket's app, Kairos, and Hyperliquid's interface; the first two cover one venue each, Kairos merges several. The rest of the first table covers the other terminals and aggregators. Bots, alert services, analytics and the 59 APIs and SDKs are each in their own section. Everything was re-checked on 2026-09-08.
 
 A maintained directory of prediction market tools for Polymarket, Kalshi, Predict.fun, Limitless, Myriad, Hyperliquid, Manifold and the wider forecasting ecosystem. Every entry carries the venues it covers, whether it executes trades, its pricing, and a **status with a last-verified date**. Links are re-checked automatically every week; anything that stops resolving is flagged, not silently kept.
 
-**288 tools. 232 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
+**289 tools. 233 live or in beta. 8 shut down or expired. Last full verification: 2026-09-08.**
 
 The data lives in [`tools.json`](tools.json); this README is generated from it. To add or correct a tool, edit `tools.json` and open a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)). Descriptions state what a tool does; accuracy and profit claims are the vendor's, not ours.
 
@@ -17,7 +17,7 @@ The data lives in [`tools.json`](tools.json); this README is generated from it. 
 - [Analytics & Whale Tracking](#analytics--whale-tracking) (42)
 - [Alerts](#alerts) (11)
 - [AI Agents & Research](#ai-agents--research) (49)
-- [Data & APIs](#data--apis) (58)
+- [Data & APIs](#data--apis) (59)
 - [Dashboards](#dashboards) (12)
 - [Infrastructure & DeFi](#infrastructure--defi) (23)
 - [Parlays & Leverage](#parlays--leverage) (5)
@@ -302,6 +302,7 @@ The best prediction market APIs in 2026 fall into two groups: official venue API
 | [pykalshi](https://github.com/arshka/pykalshi) | Unofficial MIT Python client for the Kalshi API with websocket streaming, retries, pandas output, local orderbook handling and order placement, amend and cancel methods. | Kalshi | Yes | Free (MIT) | Live · 2026-08-27 |
 | [rs-clob-client-v2](https://github.com/Polymarket/rs-clob-client-v2) | Rust crate polymarket_client_sdk_v2 for Polymarket CLOB trading with typed builders, WebSocket streams, batch orders and optional Data, Gamma, Bridge and CTF clients. | Polymarket | Yes | Free | Live · 2026-08-27 |
 | [sports-skills](https://sports-skills.sh) ([source](https://github.com/machina-sports/sports-skills)) | Open-source SKILL.md agent skills for live sports data with Kalshi and Polymarket market feeds, a cross-venue odds dashboard and an opt-in Polymarket trading skill. No API keys. | Kalshi, Polymarket, sportsbooks | Yes | Free; Machina Pro for licensed data | Live · 2026-08-27 |
+| [TAPE Markets](https://tapemarkets.io) | Polymarket data and research platform. Every trade decoded from the chain since November 2022, wallets labeled by how they trade, free daily indexes and a leaderboard, by terminal or API. | Polymarket | No | Free public tools, terminal and API by demo | Live · 2026-11-25 |
 
 ## Dashboards
 
