@@ -1,37 +1,23 @@
-[
- {
+{
   "name": "Predxy",
   "url": "https://predxy.com/",
   "category": "Terminals & Aggregators",
-  "description": "Consumer-friendly index of the world's predictions that turns 15 fragmented prediction venues into one readable probability per question, designed for everyday people.",
-  "venues": [
-   "Polymarket",
-   "Kalshi",
-   "Limitless",
-   "Outcome",
-   "Opinion",
-   "Hyperliquid",
-   "Skew",
-   "trade.xyz",
-   "Novig",
-   "Myriad",
-   "Predict.fun",
-   "SX Bet",
-   "Pascal",
-   "Gemini"
-  ],
-  "executes_trades": null,
-  "pricing": "Not published",
+  "description": "Matches the same question across 15 prediction-market venues and combines prices into one volume-weighted probability, with each venue's price and rules shown side by side.",
+  "venues": ["Polymarket", "Polymarket US", "Kalshi", "Limitless", "Opinion", "Hyperliquid", "Outcome", "Skew", "trade.xyz", "Novig", "Myriad", "Predict.fun", "SX Bet", "Pascal", "Gemini"],
+  "executes_trades": false,
+  "pricing": "Free to browse. Free MCP server. API plans at predxy.com/developers",
   "open_source": false,
   "github": null,
   "backers": null,
-  "status": "unreachable",
-  "status_note": "Vendor submission. Site loaded 2026-10-19 with 15 venues last synced within two minutes and 352,197 open questions; terms state it does not execute trades.",
-  "last_verified": "2026-10-19",
+  "status": "live",
+  "status_note": "Site loads, venue sync times shown on /venues, MCP server answers at mcp.predxy.com/mcp. Checked 2026-11-28.",
+  "last_verified": "2026-11-28",
   "sources": [
    "https://predxy.com",
+   "https://predxy.com/venues",
+   "https://predxy.com/about"
   ]
- },
+},
  {
   "name": "Verso",
   "url": "https://www.verso.trading/",
